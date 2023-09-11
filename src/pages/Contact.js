@@ -1,7 +1,7 @@
 import React from 'react';
 import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
- import { IoMdHome} from 'react-icons/io'
+//  import { IoMdHome} from 'react-icons/io'
 import {BsFillTelephoneFill} from "react-icons/bs";
  import {MdEmail} from 'react-icons/md'
 import {BsInfoCircle} from "react-icons/bs";
@@ -45,7 +45,7 @@ const Contact = () => {
             <div>
               <ul className='ps-0'>
                 <li className='mb-3 d-flex gap-15 align-items-center'> 
-                  <  IoMdHome className='fs-5'/>
+                  {/* <  IoMdHome className='fs-5'/> */}
                   <address className='mb-0'>Hmo:277 , Near village Fazilnagar , Kushinagar, </address>
                 </li>
                 <li className='mb-3 d-flex gap-15 align-items-center'>

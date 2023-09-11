@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {IoMdArrowBack}  from 'react-icons/io';
+// import {IoMdArrowBack}  from 'react-icons/io';
 import watch from '../images/watch.jpg';
 import Container from '../components/Container';
 
@@ -63,7 +63,8 @@ const Checkout = () => {
                     </div>
                     <div className='w-100'>
                         <div className='d-flex justify-content-between align-items-center'>
-                           <Link to="/cart" className='text-dark'> <  IoMdArrowBack className="me-2" /> 
+                           <Link to="/cart" className='text-dark'> 
+                           {/* <  IoMdArrowBack className="me-2" />  */}
                            Return to cart
                            </Link>
                            <Link to="/cart" className='button'>Continue to shipping</Link>
