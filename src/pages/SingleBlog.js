@@ -2,7 +2,7 @@ import React from 'react';
 import BreadCrumb from '../components/BreadCrumb';
  import Meta from '../components/Meta';
 import { Link } from 'react-router-dom';
- import  {MdOutlineKeyboardBackspace} from 'react-icons/md'
+//  import  {MdOutlineKeyboardBackspace} from 'react-icons/md'
 import blog from '../images/blog-1.jpg'
 import Container from '../components/Container';
 
@@ -19,7 +19,7 @@ const SingleBlog = () => {
                 <div className='col-12'> 
                 <div className='single-blog-card'>
                     <Link to="/blogs" className='d-flex align-items-center gap-10'>
-                       < MdOutlineKeyboardBackspace   className='fs-4'/>
+                       {/* < MdOutlineKeyboardBackspace   className='fs-4'/> */}
               
                     Go back to Blogs</Link>
                     <h3 className='title'>
