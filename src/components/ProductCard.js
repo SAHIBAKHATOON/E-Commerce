@@ -27,7 +27,7 @@ const ProductCard = (props) => {
             : ":id"
          }
          `}
-         className='product-card position-relative'>
+         className='product-card position-relative '>
             <div className='wishlist-icon position-absolute'>
               <button className='border-0 bg-transparent'>
               <img src={wish} alt='wishlist' />

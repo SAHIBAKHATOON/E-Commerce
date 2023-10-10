@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink,Link } from 'react-router-dom';
-import  {HiOutlineSearch} from 'react-icons/hi'
+import  {HiOutlineSearch} from 'react-icons/hi';
+import {FaBars} from  'react-icons/fa'
   const Header = () => {
   return (
    <>
@@ -45,7 +46,9 @@ import  {HiOutlineSearch} from 'react-icons/hi'
         <div className='col-5'>
           <div className='header-upper-link d-flex align-items-center justify-content-between'>
             <div>
+            
               <Link to="/compare-product" className='d-flex align-items-center gap-10 text-white'>
+              {/* <span className='bar'><FaBars /></span> */}
               <img src='images/compare.svg' alt='compare'/>
               <p  className='mb-0'>Compare <br /> Products</p>
               </Link>

@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
             <div>
             <h3 className='contact-title mb-4'>Get in to touch</h3>
-            <div>
+            <div className='near'>
               <ul className='ps-0'>
                 <li className='mb-3 d-flex gap-15 align-items-center'> 
                   {/* <  IoMdHome className='fs-5'/> */}

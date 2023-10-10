@@ -5,7 +5,7 @@ import newletter from '../images/newsletter.png'
  const Footer = () => {
   return (
      <>
-     <footer className='py-4'>
+       <footer className='footer-1 py-4'>
       <div className='container-xxl'>
          <div className='row align-items-center'>
           <div className='col-5'>
@@ -27,8 +27,9 @@ import newletter from '../images/newsletter.png'
          </div>
       </div>
       </div>
-     </footer>
-     <footer className='py-4'>
+     </footer>  
+
+     <footer className=' footer-2 py-4'>
       <div className='container-xxl'>
         <div className='row'>
           <div className='col-4'>
@@ -91,11 +92,12 @@ import newletter from '../images/newsletter.png'
         </div>
       </div>
      </footer>
-     <footer className='py-4'>
+
+     <footer className='footer-3 py-4'>
       <div className='container-xxl'>
         <div className='row'>
           <div className='col-12'>
-            <p className='text-center mb-0 text-white'>&copy: { new Date().getFullYear()} : Powered by Developers.</p>
+            <p className='text-center mb-0 text-white'>&copy; { new Date().getFullYear()} : Powered by Developers.</p>
           </div>
         </div>
       </div>
