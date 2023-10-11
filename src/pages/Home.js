@@ -85,17 +85,21 @@ import { services } from '../utils/Data';
       </div>
    </Container>
     
-    <Container class1='home-wrapper-2 py-5'>
+    <Container class1='home-wrapper-3 py-5'>
     <div className='row'>
           <div className='col-12'>
             <div className='categories d-flex justify-content-between flex-wrap align -items-center'>
             <div className='d-flex gap-30 align-items-center'>
+            
+            
             <div>
+               
               <h6>Music & Gaming</h6>
               <p>10 items</p>
              </div>
              <img src='images/camera.jpg' alt='camera' />
             </div>
+            
             <div className='d-flex  align-items-center'>
             <div>
               <h6>Cameras</h6>
@@ -148,6 +152,7 @@ import { services } from '../utils/Data';
             </div>
           </div>
         </div>
+         
     </Container>
  
     <Container class1="featured-wrapper py-5 home-wrapper-2">

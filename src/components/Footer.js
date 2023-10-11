@@ -35,7 +35,7 @@ import newletter from '../images/newsletter.png'
           <div className='col-4'>
             <h4 className='text-white mb-4'>Contact Us</h4>
             <div>
-              <address className="text-white fs-6">Hmo: 277 Near Vill chopal,<br />
+              <address className="text-white ">Hmo: 277 Near Vill chopal,<br />
                 Sonipat, Haryana <br />
                 Pincode: 274401
               </address>
@@ -84,7 +84,7 @@ import newletter from '../images/newsletter.png'
           <h4 className='text-white mb-4'>Quick Links</h4>
             <div className='footer-link d-flex flex-column'>
               <Link className="text-white py-2 mb-1">Laptop</Link>
-              <Link className="text-white py-2 mb-1">Headphones</Link>
+              <Link className="text-white py-2 mb-1">Earbuds</Link>
               <Link className="text-white py-2 mb-1">Tablets</Link>
               <Link className="text-white py-2 mb-1">Watch</Link>
             </div>

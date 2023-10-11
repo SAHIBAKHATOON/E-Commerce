@@ -55,10 +55,10 @@ const SingleProduct = () => {
                 </div>
                 <div className=' py-3'>
                   <p className='price'>$ 100.00</p>
-                  <div className='d-flex align-items-center gap-10'>
+                  <div className='star d-flex align-items-center gap-10'>
                   <ReactStars count={5} size={24} value={4} edit={false} activeColor="#ffd700"
                     />
-                    <p className='mb-0 t-review'> ( 2 Reviews )</p>
+                    <p className='review mb-0 t-review'> ( 2 Reviews )</p>
                   </div>
                   <a className="review-btn" href='#review'>Write a Review</a>
                 </div>
@@ -83,10 +83,7 @@ const SingleProduct = () => {
                     <h3 className='product-heading'>Availability :</h3> 
                     <p className='product-data'>In Stock</p>
                   </div>
-                  <div className='d-flex  gap-10  flex-column mt-2 mb-3'>
-                    <h3 className='product-heading'>Availability :</h3> 
-                    <p className='product-data'>In Stock</p>
-                  </div>
+                   
                   <div className='d-flex  gap-10  flex-column mt-2 mb-3'>
                     <h3 className='product-heading'>Size :</h3> 
                    <div className='d-flex flex-wrap gap-15'>
@@ -110,12 +107,12 @@ const SingleProduct = () => {
                                 <button className="button signup">Buy it Now</button> 
                     </div>
                   </div>
-                  <div className='d-flex align-items-center gap-15'>
+                  <div className='outline d-flex align-items-center gap-15'>
                   <div>
-                 <a href=''>< IoGitCompareOutline className="fs-5 me-2"/>Add to compare</a>
+                 <a href=''>< IoGitCompareOutline className="compare fs-5 me-2"/>Add to compare</a>
                   </div>
                   <div>
-                 <a href=''><  BsFillSuitHeartFill className="fs-5 me-2"/>Add to wishlist</a>
+                 <a href=''><  BsFillSuitHeartFill className="heart fs-5 me-2"/>Add to wishlist</a>
                   </div>
                   </div>
                   <div className='d-flex flex-column gap-10   my-3'>
@@ -123,7 +120,7 @@ const SingleProduct = () => {
                     <p className='product-data'>Free shipping and returns available on all orders! <br /> We ship 
                     all US domestic orders within <b>5-10 bussiness days!</b></p>
                   </div>
-                  <div className='d-flex  gap-10 align-items-center my-3'>
+                  <div className='link d-flex  gap-10 align-items-center my-3'>
                     <h3 className='product-heading'>  Product Link</h3> 
                   <a href='javascript:void(0);' onClick={() =>{
                   copyToClipboard(
@@ -170,7 +167,7 @@ const SingleProduct = () => {
             <div>
               <h4  className='mb-2'>Customer Reviews</h4>
             <div className='d-flex align-items-center gap-12'>
-            <ReactStars count={5} size={24} value={4} edit={false} activeColor="#ffd700"
+            <ReactStars   count={5} size={24} value={4} edit={false} activeColor="#ffd700"
                     />
                     <p className='mb-0'>Based on 2 reviews</p>
             </div>
