@@ -714,19 +714,16 @@ margin-bottom: 0;
 @media only screen and (max-width: 600px) {
     .header-top-strip{
        font-size: 10px;
-       max-width: 375px;
-       overflow: hidden;
+       max-width: 395px;
     } 
     .header-upper{
-       max-width: 375px;
-       overflow: hidden;
+       max-width: 395px;
     }
     .header-upper a{
      font-size: 14px;
     }
     .header-bottom{
-        max-width: 375px;
-        overflow: hidden;
+        max-width: 395px;
     }
     .input-group{
         display: none;
@@ -752,20 +749,23 @@ margin-bottom: 0;
         height: 300px;
         max-width: 300px;
         margin-left: 5px;
-        overflow: hidden;
     }
     .main-banner h4{
         font-size: 12px;
+        margin-left: 10px;
     }
     .main-banner h5{
         font-size: 22px;
+        margin-left: 10px;
     }
     .main-banner p{
         font-size: 12px;
+        margin-left: 10px;
     }
     .button{
         width: 120px;
         font-size: 12px;
+        margin-left: 10px;
     }
     .small-banner{
         display: none;
@@ -775,8 +775,7 @@ margin-bottom: 0;
         display: none;
     }
      .home-wrapper-2{
-        max-width: 375px;
-        overflow: hidden;
+        max-width: 395px;
      }
     .services p{
         font-size: 9px; 
@@ -802,11 +801,20 @@ margin-bottom: 0;
         height: 150px;
         width: 200px;
     }
+    .famous-wrapper p{
+        display: none;
+    }
+    .famous-wrapper h6{
+        display: none;
+    }
     .famous-wrapper h5{
         font-size: 8px;
     }
     .famous-wrapper h6{
         font-size: 10px;
+    }
+    .special-product-card img{
+        display: none;
     }
     .special-wrapper h3{
         font-size: 16px;
@@ -838,8 +846,7 @@ margin-bottom: 0;
         display: none;
     }
     .marque-wrapper{
-        max-width: 375px;
-        overflow: hidden;
+        max-width: 395px;
     }
     .marque-wrapper img{
         height: 100px;
@@ -881,16 +888,13 @@ margin-bottom: 0;
         font-size: 10px;
      }
      .footer-1{
-        max-width: 375px;
-        overflow: hidden;
+        max-width: 395px;
      }
      .footer-2{
-        max-width: 375px;
-        overflow: hidden;
+        max-width: 395px;
      }
      .footer-3{
-        max-width: 375px;
-        overflow: hidden;
+        max-width: 395px;
      }
      /*  ----------COMPARE--------- */
      .compare-product-card,
