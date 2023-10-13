@@ -56,7 +56,7 @@ const SingleProduct = () => {
                 <div className=' py-3'>
                   <p className='price'>$ 100.00</p>
                   <div className='star d-flex align-items-center gap-10'>
-                  <ReactStars count={5} size={24} value={4} edit={false} activeColor="#ffd700"
+                  <ReactStars className="star" count={5} size={24} value={4} edit={false} activeColor="#ffd700"
                     />
                     <p className='review mb-0 t-review'> ( 2 Reviews )</p>
                   </div>

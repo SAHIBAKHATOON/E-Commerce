@@ -48,8 +48,8 @@ import {FaBars} from  'react-icons/fa'
             <div>
             
               <Link to="/compare-product" className='d-flex align-items-center gap-10 text-white'>
-              {/* <span className='bar'><FaBars /></span> */}
-              <img src='images/compare.svg' alt='compare'/>
+               
+              <img src='images/compare.svg'  alt='compare'/>
               <p  className='mb-0'>Compare <br /> Products</p>
               </Link>
             </div>

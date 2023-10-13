@@ -347,8 +347,8 @@ background-color: white;
 }
 .famous-card img{
      border-radius: 10px;
- 
 }
+ 
 /* -------FAMOUS PART END---------- */
 /*----------- STORE------------- */
 .filter-card{
@@ -715,12 +715,11 @@ margin-bottom: 0;
     .header-top-strip{
        font-size: 10px;
        max-width: 395px;
+       display: none;
     } 
-    .header-upper{
-       max-width: 395px;
-    }
     .header-upper a{
      font-size: 14px;
+     padding-bottom: 10px;
     }
     .header-bottom{
         max-width: 395px;
@@ -731,9 +730,21 @@ margin-bottom: 0;
     .header-upper-link p{
        display: none; 
     }
+    .header-upper img{
+        display: none;
+    }
+    .header-upper span{
+        display: none;
+    }
+    .header-upper-link{
+      margin-top: -30px;
+        margin-left: 100px;
+    }
     .header-upper-link img{
         height: 15px;
         width: 15px;
+        margin-left: 20px;
+        
     }
     .header-upper.header-upper-links span{
         display: block; 
@@ -747,20 +758,20 @@ margin-bottom: 0;
     /* ----------HOME----------------- */
     .main-banner img{
         height: 300px;
-        max-width: 300px;
-        margin-left: 5px;
+        min-width: 270px;
+        margin-left: 15px;
     }
     .main-banner h4{
         font-size: 12px;
-        margin-left: 10px;
+        margin-left: 13px;
     }
     .main-banner h5{
         font-size: 22px;
-        margin-left: 10px;
+        margin-left: 13px;
     }
     .main-banner p{
         font-size: 12px;
-        margin-left: 10px;
+        margin-left: 13px;
     }
     .button{
         width: 120px;
@@ -778,7 +789,9 @@ margin-bottom: 0;
         max-width: 395px;
      }
      .home-wrapper-2 p{
-        margin-left: -7px;
+        margin-left: -35px;
+        padding-top: 80px;
+        font-size: 8px;
      }
      .home-wrapper-3 h6{
         display: none;
@@ -786,13 +799,13 @@ margin-bottom: 0;
      .home-wrapper-3 p{
         margin-left: -17px;
      }
-    .services p{
-        font-size: 9px; 
-    }
+     
     .services img{
-        height: 15px;
-        width: 15px;
+        margin-left: 8px;
+        height: 19px;
+        width: 19px;
     }
+     
     .categories h6{
         font-size: 10px;
     }
@@ -800,86 +813,114 @@ margin-bottom: 0;
         font-size: 9px;
     }
     .categories img{
+         
         width: 20px;
         height: 20px;
     }
     .featured-wrapper{
         display: none;
     }
-    .famous-wrapper img{
-        height: 150px;
-        width: 200px;
+    /* -------------------- */
+    .row{
+        display: inline-block;
+    }
+    .card-image img,
+    .famous-card img{
+        min-width: 290px;
+        height: 300px;
+        margin-top: 20px;
+       padding-left: 60px;
     }
     .famous-wrapper p{
-        display: none;
-    }
-    .famous-wrapper h6{
-        display: none;
+        display: none; 
     }
     .famous-wrapper h5{
-        font-size: 8px;
-    }
-    .famous-wrapper h6{
+        padding-top: 40px;
+        width: 100px;
+        padding-left: 90px;
         font-size: 10px;
     }
-    .special-product-card img{
+    .famous-wrapper h6{
         display: none;
+    }
+    /* --------PRODUCT CARD-------------- */
+    .product-card {
+        min-width: 300px;
+       }
+       .product-image img{
+         height: 150px;
+       }
+       .product-details h6{
+        font-size: 8px;
+        margin-top: -110px;
+       }
+        .price{
+            margin-left: 100px;
+        }
+        .product-card-image{
+            margin-left: -20px;
+         }
+         .product-card-image img{
+          height: 120px;
+         }
+         .product-details p{
+            display: block;
+         }
+    /* ----------SPECIAL PRODUCT----------------- */
+    .special-product-card img{
+        height: 150px;
+    }
+    .special-product-card{
+        width: 240px;
+        margin-left: 50px;
     }
     .special-wrapper h3{
         font-size: 16px;
     }
     .special-product-card h5{
-       font-size: 12px;
-    }
-    .special-product-card h6{
-        font-size: 8px;
+        margin-top: 50px;
+        font-size: 12px;
+     }
+     .special-product-card h6{
+        font-size: 10px;
         width: 90px;
     }
-    .special-product-card .prod-count{
-        font-size: 10px;
-    }
-     
     .special-product-card span{
-         display: none;
-    }
-    .special-product-card .price,
-    .special-product-card .discount-till{
+        display: none;
+   }
+   .prod-count p{
+    font-size: 10px;
+    margin-top: -90px;
+    margin-left: -15px;
+}
+.progress{
+    margin-left: -30px;
+}
+.special-product-card .discount-till{
+    margin-left: 20px;
+    margin-top: -60px;
+} 
+    .special-product-card .price{
         font-size: 10px;
-    }
-    .special-product-card a{
-        height: 40px;
-        font-size: 9px;
-        width: 120px;
+        display: none;
     }
     .popular-wrapper{
         display: none;
     }
     .marque-wrapper{
-        max-width: 395px;
+        max-width: 335px;
+        overflow: hidden;
     }
     .marque-wrapper img{
         height: 100px;
         width: 80px;
     }
-    .blog-wrapper h3{
-        font-size: 16px;
-    }
-     .blog-content .date{
-         font-size: 10px;
-     }
-     .blog-content .title{
-        font-size: 8px;
-     }
-     .blog-content .desc{
-        display: none;
-     }
-     .blog-content a{
-         display: none;
-     }
-     /* .product-details p{
-        font-size: 8px;
-     } */
+
+    /* ------------------------ */
+    
+   
      /*-------------- FOOTER---------------- */
+      
      .footer-top-data h2{
         font-size: 16px;
      }
@@ -889,9 +930,7 @@ margin-bottom: 0;
      }
      footer{
         overflow: hidden;
-        /* max-width: 395px; */
      }
-
      footer h4{
         font-size: 12px;
      }
@@ -903,8 +942,7 @@ margin-bottom: 0;
      }
      address{
         font-size: 10px;
-     }
-      
+     }  
      .footer-1{
         max-width: 395px;
         overflow: hidden;
@@ -912,76 +950,41 @@ margin-bottom: 0;
      .footer-2{
         max-width: 395px;
         overflow: hidden;
+        height: 350px;
      }
-      
+      .privacy{
+         margin-top: -305px;
+        padding-left: 120px; 
+      }
+      .about{
+        margin-top: -280px;
+        padding-left: 210px; 
+      }
+      .quick{
+        margin-top: -150px;
+        padding-left: 290px; 
+      }
      .footer-3{
         max-width: 395px;
         overflow: hidden;
-     }
+        text-align: center;
+         
+     } 
      .social-icons{
-        padding-top: 80px;
+    padding-top: 110px;
      }
-     /*  ----------COMPARE--------- */
-     .compare-product-card,
-     .wishlist-card{
-        margin-left: 40px;
+     .footer-link{
+        margin-top: -10px;
      }
-     .product-card-image{
-        margin-left: -20px;
-     }
-     .product-card-image img{
-      height: 120px;
-     }
-     .compare-product-details h5,
-     .compare-product-details .price{
-        font-size: 10px;
-        width: 100px;
-     }
-     .product-detail h5{
-      font-size: 10px;
-     }
-     .product-detail p{
-       display: none;
-     }
-     .colors{
-        display: none;
-     }
-     /* --------WISHLIST-------- */
- .wishlist-card .title,
- .wishlist-card .price,
- .subtotal p{
-    font-size: 10px;
- }
- .wishlist-card-image img{
-    height: 120px;
-  min-width: 80px;
- }
- /* ------LOGIN--------- */
- .login-wrapper{
-  max-width: 375px;
- }
- .auth-card{
-    width: 300px;
- }
- /* ------------CART----------- */
- .cart-header h4{
-    font-size: 10px;
- }
- .cart-data p{
-    font-size: 10px;
- }
- .cart-data .price{
-    font-size: 10px;
- }
- .subtotal h4{
-    font-size: 10px;
- }
- .subtotal .button{
-    font-size: 9px;
- }
+     
+     
  /* --------- OUR STORE---------- */
+ .filter-card{
+    min-width: 250px;
+    margin-left: 20px;
+ }
  .store-wrapper h3{
-font-size: 9px;
+font-size: 11px;
  }
  .store-wrapper li{
     font-size: 10px;
@@ -996,54 +999,89 @@ font-size: 9px;
     display: none;
  }
  .product-tags{
-    font-size: 10px;
+    font-size: 11px;
     margin-left: -10px;
  }
  .random-products b{
     font-size: 10px;
  } 
- .random-products{
-    width: 250px;
+ .filter-card h5{
+    font-size: 11px;
+ } 
+ .form-check{
+   display: none;
  }
- .random-products img{
-    margin-left: -10px;
- }
- .random-products h5{
-    margin-top: 20px;
+ .sub-title{
+    margin-top: 10px;
  }
  .filter-sort-grid{
-    min-width: 200px;
+    min-width: 250px;
+    margin-left: 50px;
+    display: none;
  }
  .filter-sort-grid p{
     font-size: 8px;
+    margin-left: 0px;
+    display: none;
  }
  .filter-sort-grid select{
      display: none;
  }
-   .product-card {
-    min-width: 80px;
-    height: 150px;
-   }
-   .product-image img{
-     height: 150px;
-   }
-   .product-card h5{
-    font-size: 6px;
-   }
-   .product-details .product-title{
-    font-size: 5px;
+ .product-list{
+ display: inline-block;
+ display: none;
+ }
+ /* ----------BLOG WRAPPER------- */
+ 
+ .card-image img{
+    height: 200px;
+    min-width: 120px;
+    margin-left: -30px;
+ }
+ .blog-wrapper .section-heading{
+    font-size: 16px;
+ }
+ .blog-content .date{
+     font-size: 12px;
+     margin-left: 10px;
+     margin-top: -70px;
+ }
+ .blog-content .title{
+    font-size: 12px;
+    margin-bottom: -60px;
+    margin-left: 5px;
+ }
+ .blog-wrapper p{
+    font-size: 9px;
+    margin-left: 5px;
+ }
+ .blog-content a{
+     font-size: 8px;
+ }
+   .blog-card{
+    min-width: 230px;
+    margin-top: 30px;
+    margin-left: 30px;
    }
    .blog-wrapper h3{
-    font-size: 8px;
+    font-size: 10px;
    }
    .blog-wrapper li{
+    font-size: 8px;
+   }
+   .near{
     font-size: 10px;
    }
    .contact-title{
-    font-size: 14px;
+    font-size: 15px;
    }
-   .near{
-    font-size: 12px;
+     iframe{
+        height: 200px;
+        margin-bottom: 30px;
+     }
+   .near p{
+    font-size: 8px;
+  
    }
    /* ---------MAIN PRODUCT------- */
    .main-product-details .star{
@@ -1080,9 +1118,10 @@ font-size: 9px;
     .reviews-wrapper p{
         display: none;
     }
-    .button,
-    .buttonsignup{
-        display: none;
+    .button{
+        font-size: 8px;
+        width: 110px;
+        margin-bottom: 20px;
     }
     #review{
         font-size: 13px;

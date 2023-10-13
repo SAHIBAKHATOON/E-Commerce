@@ -89,11 +89,8 @@ import { services } from '../utils/Data';
     <div className='row'>
           <div className='col-12'>
             <div className='categories d-flex justify-content-between flex-wrap align -items-center'>
-            <div className='d-flex gap-30 align-items-center'>
-            
-            
+            <div className='d-flex  align-items-center'>
             <div>
-               
               <h6>Music & Gaming</h6>
               <p>10 items</p>
              </div>
@@ -214,8 +211,7 @@ import { services } from '../utils/Data';
       </div>
     </div>
     </Container>
-     
-
+  
      <Container class1='special-wrapper  py-5 home-wrapper-2'>
     
       <div className='row'>
@@ -231,6 +227,8 @@ import { services } from '../utils/Data';
       </div>
     </div>
      </Container>
+
+
      <Container class1='popular-wrapper py-5 home-wrapper-2'>
       
         <div className='row'>
@@ -247,6 +245,7 @@ import { services } from '../utils/Data';
       
 
     </Container>
+
     <Container class1='marque-wrapper py-5'>
       
         <div className='row'>
@@ -280,6 +279,7 @@ import { services } from '../utils/Data';
         </div>
      
     </Container>
+
     <Container class1='blog-wrapper py-5 home-wrapper-2'>
       
         <div className='row'>

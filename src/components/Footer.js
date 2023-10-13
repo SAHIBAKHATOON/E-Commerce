@@ -61,17 +61,17 @@ import newletter from '../images/newsletter.png'
               </div>
             </div>
           </div>
-          <div className='col-3'>
+          <div className='privacy col-3'>
           <h4 className='text-white mb-4'>Information</h4>
           <div className='footer-link d-flex flex-column'>
               <Link to="/privacy-policy" className="text-white py-2 mb-1">Privacy Policy</Link>
               <Link to="/refund-policy" className="text-white py-2 mb-1">Refund Policy</Link>
               <Link to="/shipping-policy" className="text-white py-2 mb-1">Shipping Policy</Link>
-              <Link to="/term-conditions" className="text-white py-2 mb-1">Term & Conditions</Link>
+               <Link to="/term-conditions" className="text-white py-2 mb-1"> Term & Conditions</Link> 
               <Link to=""className="text-white py-2 mb-1">Blogs</Link>
             </div>
           </div>
-          <div className='col-3'>
+          <div className='about col-3'>
           <h4 className='text-white mb-4'>Account</h4>
           <div className='footer-link d-flex flex-column'>
               <Link className="text-white py-2 mb-1">About Us</Link>
@@ -80,8 +80,8 @@ import newletter from '../images/newsletter.png'
               
             </div>
           </div>
-          <div className='col-2'>
-          <h4 className='text-white mb-4'>Quick Links</h4>
+          <div className='quick col-2'>
+          <h4 className='text-white mb-4'>Links</h4>
             <div className='footer-link d-flex flex-column'>
               <Link className="text-white py-2 mb-1">Laptop</Link>
               <Link className="text-white py-2 mb-1">Earbuds</Link>
