@@ -45,7 +45,7 @@ const Contact = () => {
             <div className='near'>
               <ul className='ps-0'>
                 <li className='mb-3 d-flex gap-15 align-items-center'> 
-                  {/* <  IoMdHome className='fs-5'/> */}
+              
                   <address className='mb-0'>Hmo:277 , Near village Fazilnagar , Kushinagar, </address>
                 </li>
                 <li className='mb-3 d-flex gap-15 align-items-center'>

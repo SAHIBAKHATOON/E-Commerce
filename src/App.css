@@ -718,7 +718,7 @@ margin-bottom: 0;
        display: none;
     } 
     .header-upper a{
-     font-size: 14px;
+     font-size: 18px;
      padding-bottom: 10px;
     }
     .header-bottom{
@@ -738,7 +738,7 @@ margin-bottom: 0;
     }
     .header-upper-link{
       margin-top: -30px;
-        margin-left: 100px;
+            margin-left: 100px;
     }
     .header-upper-link img{
         height: 15px;
@@ -753,7 +753,10 @@ margin-bottom: 0;
     display: none;
    }
    .header-bottom .menu-links a{
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .header-bottom .menu-links{
+        margin-left: -30px;
     }
     /* ----------HOME----------------- */
     .main-banner img{
@@ -789,33 +792,31 @@ margin-bottom: 0;
         max-width: 395px;
      }
      .home-wrapper-2 p{
-        margin-left: -35px;
+        margin-left: -38px;
         padding-top: 80px;
-        font-size: 8px;
+        font-size: 10px;
      }
      .home-wrapper-3 h6{
         display: none;
      }
      .home-wrapper-3 p{
-        margin-left: -17px;
+        margin-left: -15px;
      }
-     
     .services img{
-        margin-left: 8px;
+        margin-left: 12px;
         height: 19px;
         width: 19px;
     }
-     
     .categories h6{
         font-size: 10px;
     }
     .categories p{
-        font-size: 9px;
+        font-size: 12px;
     }
     .categories img{
          
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 30px;
     }
     .featured-wrapper{
         display: none;
@@ -838,7 +839,7 @@ margin-bottom: 0;
         padding-top: 40px;
         width: 100px;
         padding-left: 90px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .famous-wrapper h6{
         display: none;
@@ -871,34 +872,43 @@ margin-bottom: 0;
         height: 150px;
     }
     .special-product-card{
-        width: 240px;
-        margin-left: 50px;
+        width: 260px;
+        margin-left: 30px;
+        margin-top: 50px;
     }
     .special-wrapper h3{
-        font-size: 16px;
+        font-size: 23px;
+        margin-bottom: -10px;
     }
     .special-product-card h5{
         margin-top: 50px;
-        font-size: 12px;
+        font-size: 19px;
      }
      .special-product-card h6{
-        font-size: 10px;
-        width: 90px;
+        font-size: 13px;
+        width: 120px;
+    }
+    .special-product-card a{
+        font-size: 12px;
+        width: 140px;
     }
     .special-product-card span{
         display: none;
    }
    .prod-count p{
-    font-size: 10px;
+    font-size: 14px;
     margin-top: -90px;
     margin-left: -15px;
 }
 .progress{
     margin-left: -30px;
 }
-.special-product-card .discount-till{
+.special-product-card .discount-till b,
+.special-product-card .discount-till p{
     margin-left: 20px;
     margin-top: -60px;
+    font-size: 14px;
+    display: none;
 } 
     .special-product-card .price{
         font-size: 10px;
@@ -922,7 +932,7 @@ margin-bottom: 0;
      /*-------------- FOOTER---------------- */
       
      .footer-top-data h2{
-        font-size: 16px;
+        font-size: 21px;
      }
      .footer-top-data img{
         height: 20px;
@@ -932,13 +942,13 @@ margin-bottom: 0;
         overflow: hidden;
      }
      footer h4{
-        font-size: 12px;
+        font-size: 16px;
      }
       footer p{
         font-size: 10px;
       }
      footer a{
-        font-size: 10px;
+        font-size: 12px;
      }
      address{
         font-size: 10px;
@@ -950,26 +960,28 @@ margin-bottom: 0;
      .footer-2{
         max-width: 395px;
         overflow: hidden;
-        height: 350px;
+        height: 420px;
      }
       .privacy{
-         margin-top: -305px;
-        padding-left: 120px; 
+         margin-top: -380px;
+        padding-left: 125px; 
       }
       .about{
-        margin-top: -280px;
-        padding-left: 210px; 
+        margin-top: -313px;
+        padding-left: 235px; 
       }
       .quick{
-        margin-top: -150px;
-        padding-left: 290px; 
+        margin-top: -166px;
+        padding-left: 320px; 
       }
      .footer-3{
         max-width: 395px;
         overflow: hidden;
-        text-align: center;
-         
+        text-align: center
      } 
+     .footer-3 p{
+        font-size: 15px;
+     }
      .social-icons{
     padding-top: 110px;
      }
@@ -984,16 +996,19 @@ margin-bottom: 0;
     margin-left: 20px;
  }
  .store-wrapper h3{
-font-size: 11px;
+font-size: 16px;
  }
  .store-wrapper li{
-    font-size: 10px;
+    font-size: 13px;
+ }
+ .filter-card h3{
+    font-size: 18px;
  }
  .filter-card h5{
-    font-size: 9px;
+    font-size: 11px;
  }
  .form-check{
-    font-size: 5px;
+    font-size: 9px;
  }
  .form-floating {
     display: none;
@@ -1013,6 +1028,10 @@ font-size: 11px;
  }
  .sub-title{
     margin-top: 10px;
+    font-size: 15px;
+ }
+ .filter-card span{
+    font-size: 12px;
  }
  .filter-sort-grid{
     min-width: 250px;
@@ -1031,6 +1050,10 @@ font-size: 11px;
  display: inline-block;
  display: none;
  }
+ .random-products h5,
+ .random-products b {
+    font-size: 14px;
+ }
  /* ----------BLOG WRAPPER------- */
  
  .card-image img{
@@ -1039,52 +1062,62 @@ font-size: 11px;
     margin-left: -30px;
  }
  .blog-wrapper .section-heading{
-    font-size: 16px;
+    font-size: 23px;
+    margin-bottom: -50px;
  }
  .blog-content .date{
-     font-size: 12px;
+     font-size: 17px;
      margin-left: 10px;
      margin-top: -70px;
  }
  .blog-content .title{
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: -60px;
     margin-left: 5px;
  }
  .blog-wrapper p{
-    font-size: 9px;
+    font-size: 15px;
     margin-left: 5px;
  }
  .blog-content a{
-     font-size: 8px;
+     font-size: 12px;
+     width: 130px;
  }
    .blog-card{
-    min-width: 230px;
-    margin-top: 30px;
-    margin-left: 30px;
-   }
-   .blog-wrapper h3{
-    font-size: 10px;
-   }
-   .blog-wrapper li{
-    font-size: 8px;
+    min-width: 260px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 20px;
    }
    .near{
-    font-size: 10px;
+    font-size: 13px;
    }
    .contact-title{
-    font-size: 15px;
+    font-size: 19px;
+   }
+   address{
+    font-size: 14px;
+    /* display: none; */
+   }
+   .main-product-wrapper{
+    display: none;
+   }
+   .description-wrapper {
+    display: none;
+   }
+   .reviews-wrapper {
+    display: none;
    }
      iframe{
         height: 200px;
         margin-bottom: 30px;
      }
    .near p{
-    font-size: 8px;
+    font-size: 13px;
   
    }
    /* ---------MAIN PRODUCT------- */
-   .main-product-details .star{
+   /* .main-product-details .star{
     height: 20px;
    }
     .review{
@@ -1104,8 +1137,8 @@ font-size: 11px;
    }
    .heart{
     height: 15px;
-    }
-    .link a{
+    } */
+    /* .link a{
         display: none;
     }
     .description-wrapper h4{
@@ -1119,14 +1152,15 @@ font-size: 11px;
         display: none;
     }
     .button{
-        font-size: 8px;
-        width: 110px;
+        font-size: 10px;
+        width: 120px;
         margin-bottom: 20px;
+         
     }
     #review{
         font-size: 13px;
     }
     .reviews-wrapper h4{
         font-size: 12px;
-    } 
+    }  */
 }
